@@ -2,9 +2,13 @@
     width: 160px;
     padding-top: 150px;
     margin-left: 150px;
+    justify-content: center;
+
 }
 
 form {
+    justify-content: center;
+    text-align: center;
     margin-left: 80px;
     display: inline-flex;
     background-color: rgba(98, 224, 224, 0.63);
@@ -13,5 +17,5 @@ form {
 
 #button {
    margin-top: 30px;
-    margin-left: 70px;
+   margin-left: 10px;
 }
