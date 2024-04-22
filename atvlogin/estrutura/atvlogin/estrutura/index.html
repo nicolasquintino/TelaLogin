@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Inicial</title>
+    <link rel="stylesheet" href="../visual/style.css">
+</head>
+<body>
+    <script src="../script/login.js"></script>
+
+    <div id="img">
+        <img src="../visual/imagens/perfil.png">
+    </div>
+   <br>
+   <form onsubmit="event.preventDefault(); fazerLogin();">
+    <label>
+        <label for="usuario">Usuário:</label>
+        <input type="text" id="usuario" name="usuario" required>
+        <br>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+        <br>
+        <button type="submit" id="button">ENTRAR</button>
+</body>
+</html>
